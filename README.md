@@ -114,7 +114,7 @@ Confusion matrix of the unified model trained across all subjects:
 ## 👨‍💻 Developer
 
 **Amirhossein Chami**  
-M.Sc. in Communication Systems  
+M.Sc. student in Communication Systems  
 University of Tehran  
 
 
