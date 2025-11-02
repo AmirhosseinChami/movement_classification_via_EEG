@@ -1,13 +1,13 @@
-# 🧠 EEG Motor Imagery Classification using CSP + LDA (LOO Cross-Validation)
+# EEG Motor Imagery Classification using CSP + LDA (LOO Cross-Validation)
 
-## 📌 Project Summary
+## Project Summary
 
 This project implements a motor imagery EEG classification system using **Common Spatial Patterns (CSP)** for feature extraction and a **cascade of Linear Discriminant Analysis (LDA)** classifiers for multi-class classification. The performance is evaluated using **Leave-One-Out Cross-Validation (LOO)** on all trials. Two training approaches are supported:
 
 - Training a single model on all subjects combined  
 - Training a separate model for each subject  
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset used in this project is a multi-class motor imagery EEG dataset containing brain signals recorded from **15 subjects** performing different motor tasks. Each trial corresponds to one of **four distinct classes**, representing the following motor imagery tasks:
 
@@ -20,7 +20,7 @@ Each trial contains EEG data recorded from multiple channels over a fixed durati
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
 - **Feature Extraction**: Common Spatial Patterns (CSP)
 - **Classifier**: Cascaded One-vs-Other LDA
@@ -34,7 +34,7 @@ Each trial contains EEG data recorded from multiple channels over a fixed durati
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ### `data_review.mlx`
 Live script to visualize and explore the raw EEG signals, including time-series plots and basic statistical inspection.
@@ -68,7 +68,7 @@ Contains confusion matrix plots (both train and test) for each experiment and mo
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Download the dataset** and place it in a folder called `dataset/` at the project root.
 
@@ -95,7 +95,7 @@ Contains confusion matrix plots (both train and test) for each experiment and mo
 
 ---
 
-## 📈 Final Results
+## Final Results
 
 Update this section with your final results:
 
@@ -111,10 +111,11 @@ Confusion matrix of the unified model trained across all subjects:
 
 ---
 
-## 👨‍💻 Developer
+## Developer
 
 **Amirhossein Chami**  
 M.Sc. student in Communication Systems  
 University of Tehran  
+
 
 
